@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17241f">
+    <title>Museo | Administración</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <a class="brand" href="/" aria-label="Museo, inicio">
+                <span class="brand-mark" aria-hidden="true">M</span>
+                <span>
+                    <strong>Museo</strong>
+                    <small>Administración</small>
+                </span>
+            </a>
+
+            <p class="nav-caption">GESTIÓN</p>
+            <nav id="resource-nav" class="resource-nav" aria-label="Secciones"></nav>
+
+            <div class="sidebar-note">
+                <span class="status-dot" aria-hidden="true"></span>
+                <span>API local<br><strong>localhost:8080</strong></span>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="page-header">
+                <div>
+                    <p id="page-eyebrow" class="eyebrow">COLECCIÓN DEL MUSEO</p>
+                    <h1 id="page-title">Piezas</h1>
+                    <p id="page-description" class="page-description"></p>
+                </div>
+                <button id="new-record" class="button button-primary" type="button">
+                    <span aria-hidden="true">＋</span> Nuevo registro
+                </button>
+            </header>
+
+            <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+
+            <section id="editor" class="editor-card" aria-label="Formulario de registro" hidden></section>
+
+            <section class="data-card" aria-labelledby="list-title">
+                <div class="card-heading">
+                    <div>
+                        <p class="eyebrow">REGISTROS</p>
+                        <h2 id="list-title">Listado</h2>
+                    </div>
+                    <span id="record-count" class="record-count">Cargando…</span>
+                </div>
+                <div class="table-toolbar">
+                    <label class="search-box">
+                        <span class="search-icon" aria-hidden="true">⌕</span>
+                        <span class="visually-hidden">Buscar registros</span>
+                        <input id="search" type="search" placeholder="Buscar en esta sección…">
+                    </label>
+                </div>
+                <div id="table-container" class="table-container">
+                    <div class="loading-state"><span class="spinner" aria-hidden="true"></span> Cargando datos…</div>
+                </div>
+            </section>
+
+            <footer class="page-footer">Panel de gestión · Los cambios se guardan en la base de datos del museo.</footer>
+        </main>
+    </div>
+</body>
+</html>
