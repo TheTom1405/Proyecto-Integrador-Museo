@@ -58,3 +58,10 @@ src/
                 ├── app.js
                 └── styles.css
 ```
+
+Pruebas del funcionamiento
+*Pagina*
+<img width="958" height="474" alt="{79966AB6-7950-425E-A85E-5CD971FBA57E}" src="https://github.com/user-attachments/assets/113c05e6-1eff-4811-9548-789d67d80f50" />
+*Base de datos*
+
+<img width="522" height="205" alt="{6AC77E89-727E-452E-8A2B-771928652CF0}" src="https://github.com/user-attachments/assets/8059bde7-c0f3-45e3-9a46-c9e7a46b19ec" />
