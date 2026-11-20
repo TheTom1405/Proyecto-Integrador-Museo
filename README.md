@@ -25,16 +25,36 @@ Tecnologías y Dependencias Utilizadas
 
 Estructura del Proyecto
 
-El código fuente se organiza bajo el paquete `museo`:
+El proyecto sigue la estructura estándar de una aplicación Quarkus. El código Java y los recursos REST se encuentran organizados bajo `src/main`:
 
 ```text
 src/
 └── main/
     ├── java/
     │   └── museo/
-    │       ├── Artist.java           # Entidad JPA para los artistas
-    │       ├── Artifact.java         # Entidad JPA para las piezas y obras
-    │       ├── ExhibitionRoom.java   # Entidad JPA para las salas de exposición
-    │       └── Category.java         # Entidad JPA para las categorías
+    │       ├── Artist.java
+    │       ├── ArtistResource.java
+    │       ├── Artifact.java
+    │       ├── ArtifactResource.java
+    │       ├── Category.java
+    │       ├── CategoryResource.java
+    │       ├── ExhibitionHistory.java
+    │       ├── ExhibitionRoom.java
+    │       ├── ExhibitionRoomResource.java
+    │       ├── Museum.java
+    │       ├── MuseumResource.java
+    │       ├── Tour.java
+    │       └── TourResource.java
+    ├── docker/
+    │   ├── Dockerfile.jvm
+    │   ├── Dockerfile.legacy-jar
+    │   ├── Dockerfile.native
+    │   └── Dockerfile.native-micro
     └── resources/
-        └── application.properties    # Configuración de conexión a la base de datos
+        ├── application.properties
+        └── META-INF/
+            └── resources/
+                ├── index.html
+                ├── app.js
+                └── styles.css
+```
