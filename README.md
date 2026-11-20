@@ -2,7 +2,8 @@
 
 API REST desarrollada con Quarkus, Hibernate ORM (JPA) y MySQL para la gestión integral de un museo, abarcando exposiciones, salas, artefactos y artistas.
 
-Objetivo del Proyecto
+### Objetivo del Proyecto
+
 ​Centralizar y estructurar la administración operativa y cultural de museos mediante una arquitectura backend moderna, ligera y escalable. El proyecto busca facilitar el control de inventarios de obras, la asignación de artistas, la organización por categorías y salas, y la gestión de tours institucionales bajo estándares profesionales de desarrollo de software.
 
 ### Características del Proyecto
@@ -15,13 +16,21 @@ Objetivo del Proyecto
 
 ### Tecnologías y Dependencias Utilizadas
 
-* **Java 25** (Entorno de desarrollo)
-* **Quarkus 3.40.1.1**
-    * `quarkus-rest` (Soporte para servicios REST modernos)
-    * `quarkus-rest-jackson` (Mapeo y serialización JSON con Jackson)
-    * `quarkus-hibernate-orm` (Mapeo objeto-relacional JPA)
-    * `quarkus-jdbc-mysql` (Conector JDBC para bases de datos MySQL)
-* **Maven** (Gestor de dependencias y empaquetado)
+
+| Tecnología | Uso |
+|---|---|
+| Java 25 | Entorno de desarrollo |
+| quarkus-rest | Soporte para servicios REST modernos |
+| quarkus-rest-jackson | Mapeo y serialización JSON con Jackson |
+| quarkus-hibernate-orm | Mapeo objeto-relacional JPA |
+| quarkus-jdbc-mysql | Conector JDBC para bases de datos MySQL |
+| PostgreSQL | Motor de base de datos |
+| SQL | Creación, consulta y manipulación de datos |
+| Maven | Gestión del proyecto y dependencias |
+| JavaScript | Interactividad de la interfaz |
+| CSS | Estilos visuales de la interfaz |
+| Visual Studio Code | Editor de código utilizado |
+| GitHub | Publicación y control de versiones |
 
 ### Estructura del Proyecto
 
@@ -89,3 +98,4 @@ src/
 <img width="830" height="164" alt="image" src="https://github.com/user-attachments/assets/1ab3c748-6334-4c8f-a4d4-62a3afb80fcb" />
 <img width="547" height="161" alt="image" src="https://github.com/user-attachments/assets/283d4f8b-7cd3-4fbb-8fc6-92ab9a715f37" />
 
+#### Proyecto académico
